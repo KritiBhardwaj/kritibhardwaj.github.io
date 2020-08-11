@@ -1,0 +1,27 @@
+/* element >> classes >> IDs */
+
+
+#header-name
+{
+    display: inline;
+}
+
+#header-nav
+{
+    display: inline;
+}
+
+#welcome-div
+{
+ /* vh is viewoport height */
+    height: 80vh;
+    background-color: seagreen;
+    /* background-image: ; Google this Try this*/
+    
+        
+}
+
+div
+{
+    background-color: slateblue;
+}
