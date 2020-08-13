@@ -21,20 +21,24 @@
         </nav>
     </header>
 
-    <div id="welcome-div">
-        <!-- for positioning of the text below explore use of vh/ vw etc  -->
-        
-        <p>
-            Lorem Ipsum
-            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-        </p>
+    <form action="https://formspree.io/mpzynyeb" method="POST" name="contactForm">
+            
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="John Smith">
 
-    </div>
-    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="test@mail.com">
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" cols="50" rows="5"></textarea>
+        
+        <input type="submit" value="Submit">
+       
+    </form>
 
     <footer>
         <a href="contact.html">Contact</a> @2020 Kriti Bhardwaj
+
     </footer>
 
     

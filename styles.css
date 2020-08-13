@@ -39,3 +39,14 @@
     display: table-cell;
 
 }
+
+div.about-profile
+{
+    object-fit: cover;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    width: 200px;
+}
+
+
