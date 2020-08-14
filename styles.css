@@ -1,9 +1,29 @@
 /* element >> classes >> IDs */
 
+body
+{
+    margin: 0;
+
+}
 
 #header-name
 {
     display: inline;
+}
+
+#h1
+{
+    size: 25%
+}
+
+#nav-text
+{
+    size: 40%
+}
+
+#nav-images
+{
+    size: 35%
 }
 
 #header-nav
@@ -15,11 +35,12 @@
 {
  /* vh is viewoport height */
     height: 80vh;
+    width: 100vw;
     /* background-image: ; Google this Try this*/
-    background-image: url('assets/images/bakcground_green.jpeg');    
+    background-image: url('assets/images/pink_desk.jpg');    
     background-repeat: no-repeat; 
     background-position: center;
-    background-size: 80% 100%;
+    background-size: 100% 100%;
     opacity: 0.9;
 
     color: lightsalmon;
@@ -32,11 +53,14 @@
 
 #welcome-note
 {
-    display: block;
+    /* p is always displayed as block */
     text-align: center;
-    background-color: yellow;
-    color: tomato;
-    display: table-cell;
+    color: white;
+    width: 50vw;
+    position: relative;
+    top: 20vh;
+    left: 20vw;
+    
 
 }
 
