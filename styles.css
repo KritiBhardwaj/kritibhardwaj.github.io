@@ -6,29 +6,25 @@ body
 
 }
 
-#header-name
-{
-    display: inline;
-}
-
 #h1
 {
-    size: 25%
+    width: 30%;
+}
+
+
+#header-nav
+{
+    width: 70%;
 }
 
 #nav-text
 {
-    size: 40%
+    width: 65%;
 }
 
 #nav-images
 {
-    size: 35%
-}
-
-#header-nav
-{
-    display: inline;
+    width: 35%;
 }
 
 #welcome-div
