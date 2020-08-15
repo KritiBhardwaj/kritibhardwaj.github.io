@@ -60,13 +60,13 @@ body
 
 }
 
-div.about-profile
+#about-profile
 {
-    object-fit: cover;
-    height: 200px;
-    display: flex;
-    justify-content: left;
-    width: 200px;
+    height: 15%;
+    width: 15%;
 }
 
+#about-bio
+{
 
+}
